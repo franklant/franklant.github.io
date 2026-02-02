@@ -1,0 +1,102 @@
+<!--
+Franklan Taylor
+COMP322: Internet Systems
+Janurary 22nd, 2026
+The index page of the complete project. It gives some small insights into my character.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="icon" type="image/x-icon" href="./img/headshot.jpg">
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+            margin: 0;
+            justify-items: center;
+        }
+        div {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px; 
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+        div.bio-container {
+            padding-left: 20px;
+            border-style: solid;
+            border-radius: 5px;
+            width: 400px;
+        }
+        div.list-container {
+            background-color: rgb(219, 219, 219);
+            padding-left: 20px;
+            border-style: none;
+            border-radius: 5px;
+            width: 400px;
+        }
+        div.list-item-container {
+            width: 300px;
+            padding-left: 10px;
+            border-style: dotted;
+            border-radius: 5px;
+            border-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="./introduction.html" target="_self">Go to Introduction >></a>
+    </div>
+    <div>
+        <h2>Index</h2>
+    </div>
+    <div class="bio-container">
+        <div style="display: inline-block; width: 250px;">
+            <h3>Short Bio: </h3>
+            <p>Hello, My name is Franklan Taylor. I am from <span style="font-weight: bold;">Raleigh, North Carolina</span> and a Senior pursuing Computer Science 
+            here at North Carolina A&T State University. I am <span style="font-weight: bold; background-color: greenyellow">determined, perseverant, and considerate</span>. I like to create visually
+            appealing programs and fun games. I enjoy <span style="text-decoration: underline;">drawing, programming, and playing games.</span></p>
+        </div>
+        <div style="display: inline-block">
+            <img src="./img/headshot.jpg" alt="Professional headshot" width="100" height="100">
+        </div>
+    </div>
+    <div class="list-container">
+        <h3>List of Courses for Spring 2026: </h3>
+        <ul style="list-style-type: square;">
+            <li>
+                <div class="list-item-container">
+                    <span style="font-weight: bold;">COMP410:</span> Software Engineering
+                </div>
+            </li>
+            <li>
+                <div class="list-item-container">
+                    <span style="font-weight: bold;">COMP350:</span> Operating Systems
+                </div>
+            </li>
+            <li>
+                <div class="list-item-container">
+                    <span style="font-weight: bold;">COMP300:</span> Computer Science Jr. Colloquium
+                </div>
+            </li>
+            <li>
+                <div class="list-item-container">
+                    <span style="font-weight: bold;">COMP322:</span> Internet Systems
+                </div>
+            </li>
+            <li>
+                <div class="list-item-container">
+                    <span style="font-weight: bold;">COMP365:</span> A.I. and Machine Learning
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
